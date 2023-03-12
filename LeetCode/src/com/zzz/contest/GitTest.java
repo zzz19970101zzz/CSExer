@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 import org.junit.Test;
 
 import java.util.*;
 
->>>>>>> 2c7739d (提交)
 /**
  * @author zzz
  * @create 2023-03-11-16:16
@@ -13,8 +10,6 @@ public class GitTest {
     public static void main(String[] args) {
         
     }
-<<<<<<< HEAD
-=======
     public int maxScore(int[] nums) {
         PriorityQueue<Integer> q1 = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
@@ -74,5 +69,4 @@ public class GitTest {
     public void test(){
         System.out.println(beautifulSubarrays(new int[]{4, 3, 1, 2, 4}));
     }
->>>>>>> 2c7739d (提交)
 }
